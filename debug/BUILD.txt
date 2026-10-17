@@ -1,3 +1,1 @@
-paul-godot a12f9a6 (#38)
-export-debug Web
-range night 9.0m dawn 8.0m
+paul-godot ea7ff0e / #39
