@@ -1,1 +1,3 @@
-paul-godot 34b85b0 (#34 solid Hd2dMesh props)
+paul-godot b2c4a5e
+PR #35 collision+flame
+exported 2026-10-17 20:58 HKT
