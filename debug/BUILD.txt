@@ -1,3 +1,3 @@
-paul-godot 00a50a9
-PR #37 campfire warm OmniLight
-exported 2026-10-17 21:27 HKT
+paul-godot a12f9a6 (#38)
+export-debug Web
+range night 9.0m dawn 8.0m
