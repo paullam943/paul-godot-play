@@ -1,5 +1,5 @@
 source: paullam943/paul-godot
-commit: 4a0b599 (feat(debug): 返城 E201／E203 跳點（後屋、直街） (#48))
-built: 2026-10-18T10:27:18+08:00
+commit: 62c65f4 (Merge pull request #50 from paullam943/fix/m2-outside-gate-spawn)
+built: 2026-10-18T17:23:24+08:00
 export: debug (Web)
-includes: #45–#47 return dialogue+expr; #48 E201/E203 debug jumps; DBG menu
+includes: #49 FacadePad+陶罐擋路; #50 M2/M3 outside_gate spawn＋E100 後自由出城; prior #45–#48 return dialogue/debug jumps
