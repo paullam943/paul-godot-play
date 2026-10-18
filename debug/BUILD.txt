@@ -1,1 +1,5 @@
-paul-godot 032798f / #40
+source: paullam943/paul-godot
+commit: 6743c43 (feat(story): E201 返城對白掛 portrait expr (#47))
+built: 2026-10-18T10:25:36+08:00
+export: debug (Web)
+includes: #45 E201 return dialogue, #46 host ambient M3, #47 portrait expr
