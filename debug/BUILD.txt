@@ -1,5 +1,5 @@
 source: paullam943/paul-godot
-commit: 6743c43 (feat(story): E201 返城對白掛 portrait expr (#47))
-built: 2026-10-18T10:25:36+08:00
+commit: 4a0b599 (feat(debug): 返城 E201／E203 跳點（後屋、直街） (#48))
+built: 2026-10-18T10:27:18+08:00
 export: debug (Web)
-includes: #45 E201 return dialogue, #46 host ambient M3, #47 portrait expr
+includes: #45–#47 return dialogue+expr; #48 E201/E203 debug jumps; DBG menu
