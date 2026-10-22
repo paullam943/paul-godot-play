@@ -1,8 +1,8 @@
 Paul JRPG — GitHub Pages release build
 source_repo: paullam943/paul-godot
-source_commit: 59c94d06c9525fdacbb344a0818f7aef2b83049b
+source_commit: 1c5fb02975a29ed0643e2627b9bbd85b5a35d919
 source_branch: main
 export: godot46 --export-release "Web"
 note: no source; F4/DBG disabled in release
-exported_at_HKT: 2026-10-22 22:05:52
+exported_at_HKT: 2026-10-22 23:00:50
 debug_path: /paul-godot-play/debug/
