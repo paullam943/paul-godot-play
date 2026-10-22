@@ -1,7 +1,7 @@
 Paul JRPG — GitHub Pages DEBUG build
 source_repo: paullam943/paul-godot
-source_commit: c1bd830abf7cd1b7056fb6d57db8e377f6e0dca3
-source_branch: feat/arabia-e202-dialogue-a
+source_commit: b43cd09a597f319b6ba0d491c2f694c3133a74c3
+source_branch: main
 export: godot46 --export-debug "Web"
 note: no source; F4 / Shift+F4 / DBG enabled
-exported_at_HKT: 2026-10-22 00:41:28
+exported_at_HKT: 2026-10-22 17:01:58
