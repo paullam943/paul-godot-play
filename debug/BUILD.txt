@@ -4,6 +4,6 @@ source_commit: 0c879dd491e112f3c5629167a670eec5512c7bc3
 source_branch: main
 export: godot46 --export-debug "Web"
 note: no source; F4 / Shift+F4 / DBG enabled
-exported_at_HKT: 2026-10-23 18:22:27
+exported_at_HKT: 2026-10-23 18:29:07
 pwa: enabled (standalone; icons 144/180/512)
 loading: V1 custom shell (Apostle Paul walk; silent)
