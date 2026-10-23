@@ -1,9 +1,9 @@
 Paul JRPG — GitHub Pages DEBUG build
 source_repo: paullam943/paul-godot
-source_commit: 0c879dd491e112f3c5629167a670eec5512c7bc3
+source_commit: f9b695ca97d6b9f0f2661224b64eda4f8d42bbf7
 source_branch: main
 export: godot46 --export-debug "Web"
 note: no source; F4 / Shift+F4 / DBG enabled
-exported_at_HKT: 2026-10-23 18:29:07
+exported_at_HKT: 2026-10-23 18:42:33
 pwa: enabled (standalone; icons 144/180/512)
-loading: V1 custom shell (Apostle Paul walk; silent)
+loading: V1 custom shell (caption under bar; Paul 2x; silent)
