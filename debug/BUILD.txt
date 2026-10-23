@@ -3,5 +3,8 @@ source_repo: paullam943/paul-godot
 source_commit: 2f10866de695a178c9ea68faa8fa62bc0a5d2e4a
 source_branch: main
 export: godot46 --export-debug "Web"
+note: no source; F4 / Shift+F4 / DBG enabled
 exported_at_HKT: 2026-10-24 00:19:08
-c2_m6: Quay2 BollardGlb + Art fixed bollard collision
+pwa: enabled (standalone; icons 144/180/512)
+loading: V1 — caption under bar; native 64px Paul walk; silent
+c2_m6: Quay2 BollardGlb = Art c2_bollard.glb (fixed collision 1×1×1.25 m); FootMooringPost2 kept; art_props collision=false
