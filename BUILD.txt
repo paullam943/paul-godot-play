@@ -1,11 +1,11 @@
 Paul JRPG — GitHub Pages release build
 source_repo: paullam943/paul-godot
-source_commit: fc920e2972f2f9c3660d8c68a0739085bbb1cf12
+source_commit: a6b09fe461ec4c98d2a0fba9b68c22b3a524694d
 source_branch: main
 export: godot46 --export-release "Web"
 note: no source; F4/DBG disabled in release
-exported_at_HKT: 2026-10-24 02:03:45
+exported_at_HKT: 2026-10-24 02:33:22
 debug_path: /paul-godot-play/debug/
 pwa: enabled (standalone; icons 144/180/512)
 loading: V1 — caption under bar; native 64px Paul walk; silent
-c2_m6: Quay2 BollardGlb + WarehouseEaveGlb; Map P1 C2_M2 + P2 C2_M3 branches/ambient
+c2_m6: Quay2 BollardGlb + WarehouseEaveGlb; Map P1 C2_M2 + P2 C2_M3 + P3 C2_M6 harbour branches/ambient
