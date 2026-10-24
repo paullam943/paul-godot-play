@@ -1,11 +1,12 @@
 Paul JRPG — GitHub Pages release build
 source_repo: paullam943/paul-godot
-source_commit: a3a28f4eb913d771be7f70b8f27cc8df95918dc7
-source_branch: main
+source_commit: c601147b53b49fef6585b448e69aedd607efcf4d
+source_branch: map/c2-m5-branches-apply
 export: godot46 --export-release "Web"
 note: no source; F4/DBG disabled in release
-exported_at_HKT: 2026-10-24 08:49:50
+exported_at_HKT: 2026-10-24 09:03:18
 debug_path: /paul-godot-play/debug/
 pwa: enabled
 loading: The Apostle Paul title-logo English
 debug_hud: params panel collapsed by default; DBG menu toggle
+map: C2_M2/C2_M3 building depth (jeru tex_box + front door) + debug jumps story-order presets

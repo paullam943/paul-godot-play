@@ -1,8 +1,0 @@
-Paul JRPG — GitHub Pages DEBUG build
-source_repo: paullam943/paul-godot
-source_commit: a3a28f4eb913d771be7f70b8f27cc8df95918dc7
-source_branch: main
-export: godot46 --export-debug "Web"
-note: no source; F4 / Shift+F4 / DBG enabled; params HUD collapsed by default
-exported_at_HKT: 2026-10-24 08:49:50
-pwa: enabled
