@@ -1,8 +1,8 @@
 Paul JRPG — GitHub Pages DEBUG build
 source_repo: paullam943/paul-godot
-source_commit: a3a28f4eb913d771be7f70b8f27cc8df95918dc7
+source_commit: 386d49108949e34e10c825366d0bd7bc909a7e0e
 source_branch: main
 export: godot46 --export-debug "Web"
-note: no source; F4 / Shift+F4 / DBG enabled
-exported_at_HKT: 2026-10-24 18:59:13
+note: no source; F4 / Shift+F4 / DBG enabled; Ch2 solid GLBs (#53)
+exported_at_HKT: 2026-10-25 08:21:10
 pwa: enabled (standalone; icons 144/180/512)
