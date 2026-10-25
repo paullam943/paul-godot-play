@@ -1,8 +1,8 @@
 Paul JRPG — GitHub Pages DEBUG build
 source_repo: paullam943/paul-godot
-source_commit: 2a8bea91eac07ca1e20735574e9aa1decc03b1d7
+source_commit: fc7cd4a21fd72e802efa09985e61684284765276
 source_branch: main
 export: godot46 --export-debug "Web"
-note: no source; F4 / Shift+F4 / DBG enabled; #56 C2_M3 A-row south FacadePads h→24 + B014 for south-wall retest
-exported_at_HKT: 2026-10-25 10:14:18
+note: no source; F4 / Shift+F4 / DBG enabled; #57 C2_M3 B007 south +16 + A-row FacadePads h→32 (debug red tint) for south-wall retest
+exported_at_HKT: 2026-10-25 10:36:11
 pwa: enabled (standalone; icons 144/180/512)
