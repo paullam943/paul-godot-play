@@ -1,12 +1,12 @@
 Paul JRPG — GitHub Pages Ch1-only build
 source_repo: paullam943/paul-godot
-source_commit: 71c6bfb7e9c47f00489067f19f171d7d33797d23
+source_commit: a75d72f786b42891e7ab9fa1e4074d67153a7cd5
 source_branch: main
 path: /paul-godot-play/ch1/
 export: godot46 --export-release "Web"
-ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title, does not begin chapter2); #63 Act1 clarity + #62 Batch0–5 on tip 71c6bfb7e9c47f00489067f19f171d7d33797d23
+ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); #63+#64+#65 on tip a75d72f
 save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/; user://ch1_only/* filenames; CH1_ONLY_PAGES rejects chapter2/PierDeck saves even if present
 pwa: DISABLED (no service worker / no cache-first stale pck); hard refresh still recommended once to drop old SW
 note: no source; F4/DBG disabled in release; local patch only — not pushed to private paul-godot; chapter2 assets still in pck but Continue ignores non-chapter1 saves; MIGRATE keep main E105/E138
-exported_at_HKT: 2026-10-26 07:48:01
+exported_at_HKT: 2026-10-26 07:51:34
 loading: The Apostle Paul title-logo English
