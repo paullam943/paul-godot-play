@@ -143,7 +143,6 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-<link rel="manifest" href="index.manifest.json">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -278,7 +277,8 @@ html, body { width: 100%; height: 100%; position: fixed; inset: 0; overflow: hid
   });
 })();
 </script>
-		<script>
+	
+<script>
 /* Ch1-only: drop any leftover Godot PWA SW from earlier /ch1/ builds (cache-first could serve stale pck). */
 (function(){
   if (!('serviceWorker' in navigator)) return;
@@ -292,20 +292,17 @@ html, body { width: 100%; height: 100%; position: fixed; inset: 0; overflow: hid
       } catch (e) {}
     });
   });
-  // Also clear Cache Storage entries for old ch1 prefixes
   if (window.caches && caches.keys) {
     caches.keys().then(function(keys){
       keys.forEach(function(k){
         if (k.indexOf('使徒保羅-ch1-sw-cache') === 0 || k.indexOf('使徒保羅-sw-cache') === 0) {
           caches.delete(k);
-          console.info('[Ch1Only] deleted cache', k);
         }
       });
     });
   }
 })();
 </script>
-
 </head>
 	<body>
 		<canvas id="canvas">
@@ -333,7 +330,7 @@ html, body { width: 100%; height: 100%; position: fixed; inset: 0; overflow: hid
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":86317244,"index.wasm":37686550},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":86318172,"index.wasm":37686550},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 

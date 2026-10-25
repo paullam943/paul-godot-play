@@ -1,8 +1,10 @@
 Paul JRPG — GitHub Pages DEBUG build
 source_repo: paullam943/paul-godot
-source_commit: 0defddc28f8c54c70e46e446459c9047132106fa
+source_commit: 71c6bfb7e9c47f00489067f19f171d7d33797d23
 source_branch: main
+path: /paul-godot-play/debug/
 export: godot46 --export-debug "Web"
-note: no source; F4 / Shift+F4 / DBG enabled; #62 Ch1 dialogue rewrite + gates; non-Octopath
-exported_at_HKT: 2026-10-26 01:33:58
-pwa: enabled (standalone; icons 144/180/512)
+note: no source; F4/DBG enabled; #63 Act1 clarity + #62 Ch1 rewrite; non-Octopath
+exported_at_HKT: 2026-10-26 07:48:01
+pwa: enabled
+loading: The Apostle Paul title-logo English
