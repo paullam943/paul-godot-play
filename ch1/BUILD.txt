@@ -1,0 +1,11 @@
+Paul JRPG — GitHub Pages Ch1-only build
+source_repo: paullam943/paul-godot
+source_commit: c007fcb9c1e29fa7844d52f4fc0b29ae60f5c6a4
+source_branch: main
+path: /paul-godot-play/ch1/
+export: godot46 --export-release "Web"
+ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title, does not begin chapter2)
+note: no source; F4/DBG disabled in release; local patch only — not pushed to private paul-godot; chapter2 assets still in pck
+exported_at_HKT: 2026-10-25 13:17:55
+pwa: enabled
+loading: The Apostle Paul title-logo English
