@@ -5,8 +5,8 @@ source_branch: main
 path: /paul-godot-play/ch1/
 export: godot46 --export-release "Web"
 ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title, does not begin chapter2)
-save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-ch1/ (separate IndexedDB from root/debug 使徒保羅); also user://ch1_only/* filenames
-note: no source; F4/DBG disabled in release; local patch only — not pushed to private paul-godot; chapter2 assets still in pck
-exported_at_HKT: 2026-10-25 13:46:52
-pwa: enabled (CACHE_PREFIX 使徒保羅-ch1-sw-cache-; distinct from root)
+save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/ (NEW empty IDB subdir; was paul-godot-ch1); user://ch1_only/* filenames; CH1_ONLY_PAGES rejects chapter2/PierDeck saves even if present
+pwa: DISABLED (no service worker / no cache-first stale pck); hard refresh still recommended once to drop old SW
+note: no source; F4/DBG disabled in release; local patch only — not pushed to private paul-godot; chapter2 assets still in pck but Continue ignores non-chapter1 saves
+exported_at_HKT: 2026-10-25 13:59:22
 loading: The Apostle Paul title-logo English
