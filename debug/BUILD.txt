@@ -1,8 +1,8 @@
 Paul JRPG — GitHub Pages DEBUG build
 source_repo: paullam943/paul-godot
-source_commit: 9ef9663efb49ba6cc85274064be9ee17dd01c753
+source_commit: c007fcb9c1e29fa7844d52f4fc0b29ae60f5c6a4
 source_branch: main
 export: godot46 --export-debug "Web"
-note: no source; F4 / Shift+F4 / DBG enabled; non-Octopath tip (reverted #60/#58/#59; equals post-#57 fc7cd4a). Octopath HD-2D look-dev (#58 props + #59 look + #60 jar pads) on branch look/octopath-hd2d @ 35b5102
-exported_at_HKT: 2026-10-25 12:07:02
+note: no source; F4 / Shift+F4 / DBG enabled; non-Octopath + #60 JarLaneN long FacadePads (reverted #58/#59; restored #60). Octopath HD-2D look-dev (#58+#59+#60) on branch look/octopath-hd2d @ 35b5102
+exported_at_HKT: 2026-10-25 12:09:00
 pwa: enabled (standalone; icons 144/180/512)
