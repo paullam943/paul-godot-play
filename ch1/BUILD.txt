@@ -1,12 +1,12 @@
 Paul JRPG — GitHub Pages Ch1-only build
 source_repo: paullam943/paul-godot
-source_commit: c007fcb9c1e29fa7844d52f4fc0b29ae60f5c6a4
+source_commit: 0defddc28f8c54c70e46e446459c9047132106fa
 source_branch: main
 path: /paul-godot-play/ch1/
 export: godot46 --export-release "Web"
-ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title, does not begin chapter2)
-save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/ (NEW empty IDB subdir; was paul-godot-ch1); user://ch1_only/* filenames; CH1_ONLY_PAGES rejects chapter2/PierDeck saves even if present
+ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title, does not begin chapter2); #62 Batch0–5 dialogue rewrite on tip 0defddc
+save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/; user://ch1_only/* filenames; CH1_ONLY_PAGES rejects chapter2/PierDeck saves even if present
 pwa: DISABLED (no service worker / no cache-first stale pck); hard refresh still recommended once to drop old SW
-note: no source; F4/DBG disabled in release; local patch only — not pushed to private paul-godot; chapter2 assets still in pck but Continue ignores non-chapter1 saves
-exported_at_HKT: 2026-10-25 13:59:22
+note: no source; F4/DBG disabled in release; local patch only — not pushed to private paul-godot; chapter2 assets still in pck but Continue ignores non-chapter1 saves; MIGRATE keep main E105/E138
+exported_at_HKT: 2026-10-26 01:35:20
 loading: The Apostle Paul title-logo English
