@@ -1,10 +1,10 @@
 Paul JRPG — GitHub Pages release build
 source_repo: paullam943/paul-godot
-source_commit: a75d72f786b42891e7ab9fa1e4074d67153a7cd5
+source_commit: 42909614dc4fa38144bfd0060ab0ef881f45d639
 source_branch: main
 export: godot46 --export-release "Web"
-note: no source; F4/DBG disabled in release; #63 Act1 易明 + #64「這道」 + #65 Arabia highland/insight LOCKED; non-Octopath
-exported_at_HKT: 2026-10-26 07:51:34
+note: no source; F4/DBG disabled in release; #66 E030 大光／刺棒 LOCKED (+ #63+#64+#65); non-Octopath
+exported_at_HKT: 2026-10-26 09:18:00
 debug_path: /paul-godot-play/debug/
 pwa: enabled
 loading: The Apostle Paul title-logo English
