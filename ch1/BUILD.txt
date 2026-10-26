@@ -1,12 +1,15 @@
-Paul JRPG — GitHub Pages Ch1-only build
+Paul JRPG — GitHub Pages Ch1-only build (COMPRESSED)
 source_repo: paullam943/paul-godot
 source_commit: 0190882d73f746d7ab80650d6537ef74710ab135
 source_branch: main
 path: /paul-godot-play/ch1/
 export: godot46 --export-release "Web"
-ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); #67 locked-missing batch on tip 0190882 (+ #66+#63+#64+#65)
-save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/; user://ch1_only/* filenames; CH1_ONLY_PAGES rejects chapter2/PierDeck saves even if present
-pwa: DISABLED (no service worker / no cache-first stale pck); hard refresh still recommended once to drop old SW
-note: no source; F4/DBG disabled in release; local patch only — not pushed to private paul-godot; chapter2 assets still in pck but Continue ignores non-chapter1 saves; MIGRATE keep main E105/E138
-exported_at_HKT: 2026-10-26 09:28:27
+compressed: yes (export-only same as root + Ch1 exclude_filter Map/Art; source originals unchanged in paul-godot)
+pck_bytes: 38399776 (was 86318268 uncompressed @ same tip)
+ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); tip 0190882
+ch1_exclude: Map scenes/data ch2 + illustrations/ch2 + Art BGM e230/e250/e260/stinger_e250/e280/stephen_alt + amb_c2; KEEP props/ch2 (ARABIA) + illustrations/ch1_end
+save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/; user://ch1_only/*; CH1_ONLY_PAGES
+pwa: DISABLED (no service worker); hard refresh still recommended once to drop old SW
+note: no source; F4/DBG disabled; local patch only — not pushed to private paul-godot
+exported_at_HKT: 2026-10-26 13:29:15
 loading: The Apostle Paul title-logo English
