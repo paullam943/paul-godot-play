@@ -1,12 +1,12 @@
 Paul JRPG — GitHub Pages DEBUG build (COMPRESSED)
 source_repo: paullam943/paul-godot
-source_commit: 4dd6f9eab1525faffd700cf495014033d43be49b
+source_commit: c8166126d6742c06f6a943f99fed42b1a33d6cce
 source_branch: main
 path: /paul-godot-play/debug/
 export: godot46 --export-debug "Web"
 compressed: yes (export-only BGM/amb mono vorbis q:a2; PNG pngquant+lossy import EXCEPT assets/art/title FULL-RES lossless — no half-res/pngquant on title_loop/title_bg/title_logo; source originals unchanged in paul-godot)
-pck_bytes: 50422796
-note: no source; F4/DBG enabled; #72 FAIL3 day lanterns + #71/#70/#69/#68; non-Octopath
-exported_at_HKT: 2026-10-26 20:55:25
+pck_bytes: 50423324
+note: no source; F4/DBG enabled; #73 FAIL4 day lanterns + #72/#71/#70/#69/#68; non-Octopath
+exported_at_HKT: 2026-10-26 22:32:39
 pwa: enabled
 loading: The Apostle Paul title-logo English
