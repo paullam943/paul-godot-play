@@ -1,15 +1,15 @@
 Paul JRPG — GitHub Pages Ch1-only build (COMPRESSED)
 source_repo: paullam943/paul-godot
-source_commit: 0034b33f6d1d8a09245f26fc7e070e2460ef4881
+source_commit: 8ada1254d5b8214434c9fe3b1092402d3e180e90
 source_branch: main
 path: /paul-godot-play/ch1/
 export: godot46 --export-release "Web"
 compressed: yes (export-only same as root incl. title FULL-RES lossless + Ch1 exclude_filter Map/Art; source originals unchanged in paul-godot)
-pck_bytes: 43588304
-ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); tip 0034b33
+pck_bytes: 43589280
+ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); tip 8ada125 (#75 FAIL6)
 ch1_exclude: Map scenes/data ch2 + illustrations/ch2 + Art BGM e230/e250/e260/stinger_e250/e280/stephen_alt + amb_c2; KEEP props/ch2 (ARABIA) + illustrations/ch1_end
 save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/; user://ch1_only/*; CH1_ONLY_PAGES
 pwa: DISABLED (no service worker); hard refresh still recommended once to drop old SW
-note: no source; F4/DBG disabled; local patch only — not pushed to private paul-godot; #74 FAIL5 + #73/#72/#71/#70/#69/#68; non-Octopath
-exported_at_HKT: 2026-10-26 23:12:55
+note: no source; F4/DBG disabled; local patch only — not pushed to private paul-godot
+exported_at_HKT: 2026-10-27 18:18:26
 loading: The Apostle Paul title-logo English
