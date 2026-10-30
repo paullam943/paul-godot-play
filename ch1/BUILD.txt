@@ -1,14 +1,14 @@
 Paul JRPG — GitHub Pages Ch1-only build (COMPRESSED)
 source_repo: paullam943/paul-godot
-source_commit: f76e11650aa807b3263917d1ceebffc0c0f13202
+source_commit: 975280fdbc9571a244c7b3f7de5d581eaec9872c
 source_branch: main
 path: /paul-godot-play/ch1/
 export: godot46 --export-release "Web"
 compressed: yes (export-only same as root incl. title FULL-RES lossless + Ch1 exclude_filter Map/Art; source originals unchanged in paul-godot)
-pck_bytes: 43592336 (was 43845724 compressed @ 194a26e)
-ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); tip f76e116
+pck_bytes: 43845692 (was 43592336 compressed @ f76e116)
+ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); tip 975280f
 ch1_exclude: Map scenes/data ch2 + illustrations/ch2 + Art BGM e230/e250/e260/stinger_e250/e280/stephen_alt + amb_c2; KEEP props/ch2 (ARABIA) + illustrations/ch1_end
 save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/; user://ch1_only/*; CH1_ONLY_PAGES
 pwa: DISABLED (no service worker); hard refresh still recommended once to drop old SW
-exported_at_HKT: 2026-10-30 20:05:53
+exported_at_HKT: 2026-10-30 20:12:17
 loading: The Apostle Paul title-logo English

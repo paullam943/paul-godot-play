@@ -1,12 +1,12 @@
 Paul JRPG — GitHub Pages release build (COMPRESSED)
 source_repo: paullam943/paul-godot
-source_commit: f76e11650aa807b3263917d1ceebffc0c0f13202
+source_commit: 975280fdbc9571a244c7b3f7de5d581eaec9872c
 source_branch: main
 export: godot46 --export-release "Web"
 compressed: yes (export-only BGM/amb mono vorbis q:a2; PNG pngquant+lossy import EXCEPT assets/art/title FULL-RES lossless — no half-res/pngquant on title_loop/title_bg/title_logo; source originals unchanged in paul-godot)
-pck_bytes: 50427708 (was 50796836 compressed @ 194a26e)
-note: no source; F4/DBG disabled in release; #82 約西開場四→三 + #81/#80/#79/#78; tip also 404e026; non-Octopath
-exported_at_HKT: 2026-10-30 20:05:53
+pck_bytes: 50796804 (was 50427708 compressed @ f76e116)
+note: no source; F4/DBG disabled in release; #84 city_gate throat + #83 E090 Lock B win_lines + #82 T_M3; non-Octopath
+exported_at_HKT: 2026-10-30 20:12:17
 debug_path: /paul-godot-play/debug/
 pwa: enabled
 loading: The Apostle Paul title-logo English
