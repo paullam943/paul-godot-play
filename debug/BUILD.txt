@@ -9,6 +9,6 @@ export: godot46 --export-debug "Web"
 compressed: yes (same compress base as f364b65; title HQ full-res)
 pck_bytes: 50819924
 note: Art screenshot chrome + Arabia/M3/M4 shot jumps; F3/Shift+F3/DBG; root+ch1 untouched; 唔合 paul-godot main; #96 draft
-exported_at_HKT: 2026-11-01 20:15:34
+exported_at_HKT: 2026-11-01 20:16:54
 pwa: enabled
 loading: The Apostle Paul title-logo English
