@@ -1,14 +1,14 @@
 Paul JRPG — GitHub Pages DEBUG build (COMPRESSED + Art shot jumps / hide-DBG overlay)
 source_repo: paullam943/paul-godot
-source_commit: 4e9c2111ee289a5167acaf805d9679518fcddef6
-source_tip: 4e9c211 (feat/art-walkthrough-shot-jumps / #96)
+source_commit: e23f243ecaeb8a6e1f6d65f4129c1f8e0cc65be3
+source_tip: e23f243 (feat/art-walkthrough-shot-jumps / #96)
 base_export: f364b658dacf0d44d7cb7a0ef942c6804ea07a2e (export-pages-f364b65-compress-debug + tip jumps/spawns/debug chrome)
-overlay: data/debug/jumps.json + arabia/m3 Spawns + debug_menu/debug_hud (hide DBG; ARABIA_* stations; M4_ROOF; S110/S140/S150; keeps E020/E030/E050/E070_sighted/ARABIA_TRAIL)
+overlay: data/debug/jumps.json + m5 Spawns/bema + prior arabia/m3/m1/m2/m4 Spawns + debug_menu/debug_hud (hide DBG; E120_BEMA; E130_AVOID; ARABIA_*; M4_ROOF; S110/S140/S150; E020/E030/E050/E070_sighted/ARABIA_TRAIL)
 path: /paul-godot-play/debug/
 export: godot46 --export-debug "Web"
 compressed: yes (same compress base as f364b65; title HQ full-res)
-pck_bytes: 50819924
-note: Art screenshot chrome + Arabia/M3/M4 shot jumps; F3/Shift+F3/DBG; root+ch1 untouched; 唔合 paul-godot main; #96 draft
-exported_at_HKT: 2026-11-01 20:16:54
+pck_bytes: 50823172
+note: Art screenshot chrome + E120/E130 shot jumps; F3/Shift+F3/DBG; root+ch1 untouched; 唔合 paul-godot main; #96 draft
+exported_at_HKT: 2026-11-01 21:02:26
 pwa: enabled
 loading: The Apostle Paul title-logo English
