@@ -1,15 +1,15 @@
 Paul JRPG — GitHub Pages Ch1-only build (COMPRESSED)
 source_repo: paullam943/paul-godot
-source_commit: 894b6420212f54a4192e3710b9d0ff0d5a77b21e
+source_commit: ad7d15e42e8848d8dcedd8d1698d093b17a320ac
 source_branch: main
 path: /paul-godot-play/ch1/
 export: godot46 --export-release "Web"
 compressed: yes (export-only same as root incl. title FULL-RES lossless + Ch1 exclude_filter Map/Art; source originals unchanged in paul-godot)
-pck_bytes: 44185668
-ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); tip 894b642
+pck_bytes: 44185716
+ch1_only: next_chapter.enabled=false (id chapter2 kept; continue returns to title); tip ad7d15e
 ch1_exclude: Map scenes/data ch2 + illustrations/ch2 + Art BGM e230/e250/e260/stinger_e250/e280/stephen_alt + amb_c2; KEEP props/ch2 (ARABIA) + illustrations/ch1_end
 save_ns: application/config/name=使徒保羅-ch1 + use_custom_user_dir → userfs/paul-godot-pages-ch1/; user://ch1_only/*; CH1_ONLY_PAGES
 pwa: DISABLED (no service worker); hard refresh still recommended once to drop old SW
-note: no source; F4/DBG disabled; #100+#101; local ch1 patch only — not pushed to private paul-godot
-exported_at_HKT: 2026-11-05 21:12:41
+note: no source; F4/DBG disabled; #102 E100 A-序 dialogue (accept→meal→black→snap→E105); prior #100+#101; local ch1 patch only — not pushed to private paul-godot
+exported_at_HKT: 2026-11-05 21:55:57
 loading: The Apostle Paul title-logo English
